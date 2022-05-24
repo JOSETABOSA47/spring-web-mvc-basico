@@ -1,8 +1,12 @@
 package com.globallabs.SPRINGwebmvc.model;
 
-public class Jedi {
 
+import org.springframework.lang.NonNull;
+
+public class Jedi {
+    @NonNull
     private String name;
+    @NonNull
     private String lastName;
 
     public Jedi (final String name, final String lastName){
